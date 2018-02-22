@@ -1,0 +1,97 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+# theme: minima
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll/scholar
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Site Settings
+locale                   : "en"
+title                    : "Scholar"
+title_separator          : "-"
+name                     : "Konstantinos Chorianopoulos"
+description              : "Research articles and more."
+url                      : "http://scholar.epidro.me"
+baseurl                  :
+repository               :
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+search                   : false
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : Person
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+# Analytics
+analytics:
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "UA-47023784-1"
+
+author:
+  name             : "Konstantinos Chorianopoulos"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Maker, scholar, mentor"
+  location         : "Corfu, Greece"
+  email            : "hi@epidro.me"
+  uri              : "http://www.epidro.me"
+  github           : "epidrome"
+
+scholar:
+  style: elsevier-harvard2
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: ./_bib
+  bibliography: references.bib
+  bibliography_template: entry
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: true
+  bibtex_filters:
+    - latex
+
+  details_dir:    papers
+  details_layout: abstract.html
+  details_link:   Abstract
+
+  repository: 'http://pdf.epidro.me'
+
+  query: "@*"
