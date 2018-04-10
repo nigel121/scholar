@@ -12,3 +12,11 @@
     </a>
   </li>
 {% endif %}
+
+{% if author.orcid %}
+  <li>
+    <a href="https://orcid.org/{{ author.orcid }}">
+      <i class="ai ai-orcid-square ai-lg"></i> ORCID
+    </a>
+  </li>
+{% endif %}
