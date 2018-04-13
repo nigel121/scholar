@@ -61,7 +61,7 @@ author:
   e-mail           : "hi@epidro.me"
   uri              : "http://www.epidro.me"
   github           : "epidrome"
-  orcid            : "0000-0002-5999-9387"
+  #orcid            : "0000-0002-5999-9387"
 
 scholar:
   style: elsevier-harvard2
@@ -80,10 +80,6 @@ scholar:
   use_raw_bibtex_entry: true
   bibtex_filters:
     - latex
-
-  details_dir:    papers
-  details_layout: abstract.html
-  details_link:   Abstract
 
   repository: 'http://pdf.epidro.me'
 
