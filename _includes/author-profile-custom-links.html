@@ -5,10 +5,27 @@
     </a>
   </li>
 -->
+{% if author.e-mail %}
+  <li>
+    <a href="mailto:{{ author.e-mail }}">
+      <meta itemprop="email" content="{{ author.e-mail }}" />
+      <i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+    </a>
+  </li>
+{% endif %}
+
 {% if author.google-scholar %}
   <li>
     <a href="https://scholar.google.com/citations?user={{ author.google-scholar }}">
-      <i class="ai ai-google-scholar-square ai-lg"></i> Scholar
+      <i class="ai ai-google-scholar ai-lg"></i> Scholar
+    </a>
+  </li>
+{% endif %}
+
+{% if author.dblp %}
+  <li>
+    <a href="https://dblp.uni-trier.de/pers/hd/c/{{ author.dblp }}">
+      <i class="ai ai-dblp ai-lg"></i> dblp
     </a>
   </li>
 {% endif %}
@@ -16,7 +33,15 @@
 {% if author.orcid %}
   <li>
     <a href="https://orcid.org/{{ author.orcid }}">
-      <i class="ai ai-orcid-square ai-lg"></i> ORCID
+      <i class="ai ai-orcid ai-lg"></i> ORCID
+    </a>
+  </li>
+{% endif %}
+
+{% if author.cv %}
+  <li>
+    <a href="{{ site.url }}{{ site.baseurl }}{{ author.cv }}">
+      <i class="ai ai-cv ai-lg"></i> Resume
     </a>
   </li>
 {% endif %}

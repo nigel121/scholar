@@ -1,16 +1,12 @@
 ---
 ---
 
-{% assign key = entry.key %}
-{% assign url = '/papers/' | append: key | append: '/' %}
+{{ reference }}
+
 {% if entry.doi %}
-{% capture cite %}{{ reference | replace: entry.title, '<a href="https://doi.org/%%URL_PLACEHOLDER%%">\0</a>' | replace: '%%URL_PLACEHOLDER%%', entry.doi }}{% endcapture %}
-{% else %}
-{% assign cite = reference %}
+  <a href="https://doi.org/{{ entry.doi }}"><i class="ai ai-doi ai-lg"></i></a>
 {% endif %}
 
-{{ cite }}
-
 {% if entry.link %}
-  <a href="{{ site.scholar.repository }}/{{ entry.link }}">PDF</a>
+  <a href="{{ site.scholar.repository }}/{{ entry.link }}"><i class="fas fa-file-pdf"></i></a>
 {% endif %}
