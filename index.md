@@ -5,4 +5,6 @@ author_profile: true
 
 # Publications
 
-{% bibliography %}
+{% bibliography --max 3 %}
+
+# [All Publications](/papers/)
