@@ -1,10 +1,11 @@
 ---
 layout: single
 author_profile: true
+classes: wide
 ---
 
-# Publications
+# Recent publications
 
 {% bibliography --max 3 %}
 
-# [All Publications](/papers/)
+# [All publications](/papers/)

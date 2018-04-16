@@ -64,7 +64,7 @@ author:
   #orcid            : "0000-0002-5999-9387"
 
 scholar:
-  style: elsevier-harvard2
+  style: acm-siggraph
   locale: en
 
   sort_by: year
