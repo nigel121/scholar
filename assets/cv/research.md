@@ -1,6 +1,4 @@
 
-{% include toc %}
-
 If you are a scholar, then you might want to access the [research publications](/papers/), in order to read the research results. In addition, if you are coming from an engineering, or an art and design tradition, then you might prefer the hands-on approach of the [Portfolio](http://portfolio.epidro.me) section.
 
 I have been doing research in the broad area of Human-Computer Interaction methods (human-centered software design and evaluation of its effects on humans), with a particular focus on the application domains of entertainment (since 2001) and learning (since 2008).
