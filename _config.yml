@@ -71,7 +71,7 @@ scholar:
   order: descending
 
   source: ./_bib
-  bibliography: references.bib
+  bibliography: papers.bib
   bibliography_template: entry
 
   replace_strings: true
