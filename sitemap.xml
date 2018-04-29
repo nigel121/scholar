@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://scholar.epidro.me/</loc>
-</url>
-<url>
-<loc>http://scholar.epidro.me/papers/</loc>
+<lastmod>2018-04-29T19:55:38+03:00</lastmod>
 </url>
 <url>
 <loc>http://scholar.epidro.me/publications/</loc>
+<lastmod>2018-04-29T19:55:38+03:00</lastmod>
 </url>
 <url>
-<loc>http://scholar.epidro.me/types/</loc>
+<loc>http://scholar.epidro.me/resume/</loc>
+<lastmod>2018-04-29T19:55:38+03:00</lastmod>
 </url>
 <url>
 <loc>http://scholar.epidro.me/pdf/resume.pdf</loc>
