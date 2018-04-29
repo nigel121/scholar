@@ -1,4 +1,6 @@
 # main links
 main:
-  - title: ""
-    url: ""
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Resume"
+    url: "/resume/"

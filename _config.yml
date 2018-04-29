@@ -1,16 +1,5 @@
-# Build settings
-markdown: kramdown
-permalink: pretty
-# theme: minima
+# Theme
 theme: minimal-mistakes-jekyll
-
-plugins:
-  - jekyll-feed
-  - jekyll/scholar
-  - jekyll-sitemap
-exclude:
-  - Gemfile
-  - Gemfile.lock
 
 # Site Settings
 locale                   : "en"
@@ -25,6 +14,33 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 search                   : false
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  news:
+    output: false
+  pages:
+    output: true
+    permalink: pretty
+
+news_limit: 5
+
+defaults:
+  - scope:
+      path: "_news"
+      type: news
+    values:
+      layout: post
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # SEO Related
 google_site_verification :
