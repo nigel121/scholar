@@ -22,19 +22,20 @@ I am doing research and teaching in the broad area of Informatics with an emphas
 
 **Application domains:** Entertainment, learning, well-being, culture.
 
-{% include_relative assets/cv/recent.md %}
-{% include_relative assets/cv/bio.md %}
-## [Resume CV](/pdf/resume.pdf)
-{% include_relative assets/cv/positions.md %}
-{% include_relative assets/cv/service.md %}
-{% include_relative assets/cv/courses.md %}
-{% include_relative assets/cv/mentoring.md %}
-{% include_relative assets/cv/talks.md %}
-{% include_relative assets/cv/tutorials.md %}
-{% include_relative assets/cv/teaching-statement.md %}
-{% include_relative assets/cv/software.md %}
-{% include_relative assets/cv/funded.md %}
-{% include_relative assets/cv/awards.md %}
-{% include_relative assets/cv/social.md %}
-{% include_relative assets/cv/getalife.md %}
-{% include_relative assets/cv/contact.md %}
+{% include cv/recent.md %}
+{% include cv/bio.md %}
+## Resume
+[CV](/pdf/resume.pdf) <i class="fas fa-file-pdf"></i>
+{% include cv/positions.md %}
+{% include cv/service.md %}
+{% include cv/courses.md %}
+{% include cv/mentoring.md %}
+{% include cv/talks.md %}
+{% include cv/tutorials.md %}
+{% include cv/teaching-statement.md %}
+{% include cv/software.md %}
+{% include cv/funded.md %}
+{% include cv/awards.md %}
+{% include cv/social.md %}
+{% include cv/getalife.md %}
+{% include cv/contact.md %}
