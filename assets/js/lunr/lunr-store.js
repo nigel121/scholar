@@ -1,31 +1,21 @@
 var store = [{
-        "title": "Talk_invitation",
-        "excerpt":"Invited for a talk! :sparkles: :smile: ","categories": [],
+        "title": "2016 09 Pibook",
+        "excerpt":"Self-published a book on making of interactive systems! 📖 ","categories": [],
         "tags": [],
-        "url": "http://scholar.epidro.me/news/talk_invitation/",
+        "url": "http://scholar.epidro.me/news/2016-09-pibook/",
         "teaser":null},{
-        "title": "Icml_paper_accepted",
-        "excerpt":"Paper accepted! :sparkles: :smile: ","categories": [],
+        "title": "2017 06 Varvara Phd",
+        "excerpt":"Post-graduate student Varvara Garneli successfully defended PhD thesis! 🎆 ","categories": [],
         "tags": [],
-        "url": "http://scholar.epidro.me/news/icml_paper_accepted/",
+        "url": "http://scholar.epidro.me/news/2017-06-varvara-phd/",
         "teaser":null},{
-        "title": "Project_proposal_accepted",
-        "excerpt":"Proposal accepted! :sparkles: :smile: ","categories": [],
+        "title": "2017 09 Msc Ubicomp",
+        "excerpt":"Teaching at the MSc on Mobile and Ubiquitous Computing at the Hellenic Open University! ","categories": [],
         "tags": [],
-        "url": "http://scholar.epidro.me/news/project_proposal_accepted/",
+        "url": "http://scholar.epidro.me/news/2017-09-msc-ubicomp/",
         "teaser":null},{
-        "title": "Welcome!",
-        "excerpt":"Recent papers Garneli, V. and Chorianopoulos, K. 2018. Programming video games and simulations in science education: exploring computational thinking through code analysis. Interactive Learning Environments 26, 3, 386–401. Various aspects of computational thinking (CT) could be supported by educational contexts such as simulations and video-games construction. In this field study,...","categories": [],
+        "title": "2018 03 Tenured",
+        "excerpt":"Got tenured at the rank of assistant professor! :fireworks: ","categories": [],
         "tags": [],
-        "url": "http://scholar.epidro.me/index.html",
-        "teaser":null},{
-        "title": "Publications",
-        "excerpt":"Recent Garneli, V. and Chorianopoulos, K. 2018. Programming video games and simulations in science education: exploring computational thinking through code analysis. Interactive Learning Environments 26, 3, 386–401. Various aspects of computational thinking (CT) could be supported by educational contexts such as simulations and video-games construction. In this field study, potential...","categories": [],
-        "tags": [],
-        "url": "http://scholar.epidro.me/publications/",
-        "teaser":null},{
-        "title": "Resume",
-        "excerpt":"Resume Summary I am doing research and teaching in the broad area of Informatics with an emphasis on the domains of user interfaces, video, video-games, gamification, crowdsourcing, software, learning, health. Research methodology: human-centered software design, user study (field, experiment). Application domains: Entertainment, learning, well-being, culture. Recent work During the last...","categories": [],
-        "tags": [],
-        "url": "http://scholar.epidro.me/resume/",
+        "url": "http://scholar.epidro.me/news/2018-03-tenured/",
         "teaser":null},]
