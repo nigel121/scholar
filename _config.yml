@@ -34,7 +34,8 @@ defaults:
       path: "_news"
       type: news
     values:
-      layout: post
+      layout: posts
+      inline: true
   - scope:
       path: "_pages"
       type: pages

@@ -1,6 +1,8 @@
 ---
 title: Resume
 permalink: "/resume/"
+layout: single
+author_profile: true
 toc: true
 toc_label: "Contents"
 toc_icon: "cog"
@@ -11,8 +13,6 @@ header:
   cta_label: "<i class='fa fa-download'></i> Download CV"
   cta_url: "/pdf/resume.pdf"
 ---
-
-# Resume
 
 {% include cv/summary.md %}
 {% include cv/recent.md %}
