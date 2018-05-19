@@ -15,10 +15,6 @@ header:
 excerpt: "**Featured paper:** A Taxonomy of Asynchronous Instructional Video Styles"
 ---
 
-## Recent
-
-{% bibliography --max 3 %}
-
 ## Selected
 
 {% bibliography --file selected.bib %}
