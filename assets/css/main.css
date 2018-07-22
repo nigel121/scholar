@@ -2,7 +2,7 @@
    Default skin
    ========================================================================== */
 /*!
- * Minimal Mistakes Jekyll Theme 4.11.2 by Michael Rose
+ * Minimal Mistakes Jekyll Theme 4.12.0 by Michael Rose
  * Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt)
 */
@@ -2119,8 +2119,6 @@ th {
     border-bottom: 1px solid #f2f3f3; }
     .toc__menu a:hover {
       color: #494e52; }
-  .toc__menu > li:last-child a {
-    border-bottom: none; }
   .toc__menu li ul > li a {
     padding-left: 1.75rem;
     font-weight: normal; }
@@ -2202,6 +2200,8 @@ th {
 .page__footer-follow a {
   padding-right: 10px;
   font-weight: bold; }
+.page__footer-follow .social-icons a {
+  white-space: nowrap; }
 
 /* ==========================================================================
    SEARCH
@@ -2709,6 +2709,8 @@ body:hover .visually-hidden button {
 .social-icons .fa-github-alt,
 .social-icons .fa-github-square {
   color: #171516; }
+.social-icons .fa-gitlab {
+  color: #e24329; }
 .social-icons .fa-google-plus,
 .social-icons .fa-google-plus-square,
 .social-icons .fa-google-plus-g {
@@ -3375,10 +3377,32 @@ a.reversefootnote {
     text-indent: 0; }
 
 .archive__item-teaser {
+  position: relative;
   border-radius: 4px;
   overflow: hidden; }
   .archive__item-teaser img {
     width: 100%; }
+
+.archive__item-caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2px 5px;
+  color: #fff;
+  font-family: Georgia, Times, serif;
+  font-size: 0.625em;
+  background: #000;
+  text-align: right;
+  z-index: 5;
+  opacity: 0.5;
+  border-radius: 4px 0 0 0; }
+  @media (min-width: 64em) {
+    .archive__item-caption {
+      padding: 5px 10px; } }
+  .archive__item-caption a {
+    color: #fff;
+    text-decoration: none; }
 
 /*
    List view
@@ -3620,7 +3644,17 @@ a.reversefootnote {
       width: 200px;
       margin-right: -200px;
       padding-left: 1em;
-      z-index: 10; } }
+      z-index: 10; }
+      .sidebar__right.sticky {
+        clear: both;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 2em;
+        float: right; }
+        .sidebar__right.sticky::after {
+          clear: both;
+          content: "";
+          display: table; } }
   @media (min-width: 80em) {
     .sidebar__right {
       width: 300px;
@@ -3788,7 +3822,9 @@ a.reversefootnote {
       width: initial;
       margin-right: initial;
       padding-left: initial;
-      z-index: initial; } }
+      z-index: initial; }
+      .wide .sidebar__right.sticky {
+        float: none; } }
   @media (min-width: 80em) {
     .wide .sidebar__right {
       width: initial;
