@@ -1,4 +1,4 @@
-# Awards and distinctions
+## Awards and distinctions
 
 * [Keynote speaker at WebMedia 2012 conference](http://sws2012.ime.usp.br/webmedia/keynotes.php), Sao Paulo, Brazil, 2012.
 * Visiting Scientist at Norwegian University of Science and Technology (NTNU), Trondheim, Norway (2011-2013).

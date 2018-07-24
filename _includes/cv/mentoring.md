@@ -1,4 +1,4 @@
-# Mentoring
+## Mentoring
 
 In addition to teaching (broadcasting of knowledge), I have been mentoring students toward an MSc, PhD thesis. So far, more than half of the thesis students under my supervision are publishing their final thesis as a research article in an international peer-reviewed venue (conference, journal).
 
@@ -6,11 +6,11 @@ I enjoy working with people who are passionate about interactive technologies an
 
 If you are interested in pursuing a PhD with me as advisor please contact me to discuss projects. If you are an ambitious and motivated BSc, MSc student and you are working in English, then feel free to drop me a line, we might be able to work together.
 
-## Completed PhD
+### Completed PhD
 
 * Varvara Garneli (2017)
 
-## Ongoing PhD
+### Ongoing PhD
 
 * Alexandros Merkouris (2014-)
 * Elias Stouraitis (2015-)
@@ -18,7 +18,7 @@ If you are interested in pursuing a PhD with me as advisor please contact me to 
 * Manousos Kamilakis (2017-)
 * Konstantinos Patiniotis (2018-)
 
-## MSc, BSc Thesis students
+### MSc, BSc Thesis students
 
 The following students have been successfully supported toward a completed thesis project. Most of the students have also prepared at least one research article.
 
@@ -42,7 +42,7 @@ The following students have been successfully supported toward a completed thesi
 * Skenteridis, K. (2018): Augmented board games
 * Dimitriadis, Z. (2018): Interactive book
 
-## External examiner
+### External examiner
 
 * Emil A. Mork (2013): MSc Thesis (NTNU, Norway)
 * Alcina Prata (2014): PhD Thesis (University of Lisbon, Portugal)
