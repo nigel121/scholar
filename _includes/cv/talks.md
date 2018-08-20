@@ -3,7 +3,7 @@
 
 * Interaction Design. Guest lecture. User Interface Design for Interactive TV. Department of Computer Science. University College London. February 2005.
 * Beyond Usability. Opening keynote speech. 3rd European Interactive TV conference (EuroITV 2005), April 2005, University of Aalborg, Denmark, 2005
-* Supporting the Social Uses of Interactive TV. Guest lecture. Social computing course. University of the Arts (UDK), Berlin. Ιούλιος 2006.
+* Supporting the Social Uses of Interactive TV. Guest lecture. Social computing course. University of the Arts (UDK), Berlin. July 2006.
 * Double screen interaction design. Guest lecture in the course ‘Multi-device interaction design in the museum,’ Department of media design, Bauhaus University of Weimar, November 2006.
 * Interaction Design for Ambient Systems. Guest lecture. Social computing course. University of the Arts (UDK), Berlin. December 2006.
 * Interaction Design for Ambient Systems. Guest lecture. Architectural Media Communication course. Department of Architecture. University of Cyprus, Nicosia, Cyprus, December 2006.

@@ -1,11 +1,11 @@
 
-If you are a scholar, then you might want to access the [research publications](/papers/), in order to read the research results. In addition, if you are coming from an engineering, or an art and design tradition, then you might prefer the hands-on approach of the [Portfolio](http://portfolio.epidro.me) section.
+## Research statement
 
 I have been doing research in the broad area of Human-Computer Interaction methods (human-centered software design and evaluation of its effects on humans), with a particular focus on the application domains of entertainment (since 2001) and learning (since 2008).
 
 Every few years, depending on resources and contemporary developments, I am expanding skills and knowledge into a new application domain. Recently, I have become interested in well-being (since 2013) and culture (since 2018). Here, I am organizing research according to broad topics of public interest in order to make them more accessible to the general public.
 
-# Entertainment, learning, well being, and culture
+### Entertainment, learning, well being, and culture
 
 Since 2010, I have been exploring topics that influence e-learning and the quality of life, such as:
 
@@ -24,7 +24,7 @@ Since 2010, I have been exploring topics that influence e-learning and the quali
 
 The research framework bellow is organized according to two strands with respect to physical context (private and public space) and the type of activity (entertainment and learning).
 
-# Public space, collaboration, telecommunication, and community awareness
+### Public space, collaboration, telecommunication, and community awareness
 
 Since 2006, I have been examining human activity outside the home and toward the public space, with a particular focus on informal educational settings and computer mediated communication. For this purpose, I am employing both established and novel interaction and communication technologies. Moreover, I am working closely with schools and teachers, in order to leverage their ability to adopt and adapt technologies in ways that are suitable for their skills and needs. Recently, I have been working on the following projects:
 
@@ -36,13 +36,11 @@ Since 2006, I have been examining human activity outside the home and toward the
 
 * collaborative multi-user screens: tools and techniques for designing highly collaborative multi-touch surfaces that are more than the sum of the parts (User Experience Quality in Multi-Touch Tasks, Multi-user Chorded Toolkit for Multi-touch Screens)
 
-* virtual communities:
+* virtual communities: online 3D virtual worlds (Second Life), social networks (Facebook)
 
-# Private space, family life, and multimedia production tools
+### Private space, family life, and multimedia production tools
 
-Since 2000, I have been working on a broad set of research issues that consider an interdisciplinary area defined by human-computer interaction, multimedia design, and media communication. Most designers with an information technology (IT) background think about interactive television in personal computer terms. Although the academic background is in computer engineering, empirical research on the broadcast and the media industry --Hellenic Broadcasting, RAI research, Canal+, Danish Broadcasting-- has taught me several lessons, in complement to the IT mentality. In particular,
-
-I have done research on:
+Since 2000, I have been working on a broad set of research issues that consider an interdisciplinary area defined by human-computer interaction, multimedia design, and media communication. Most designers with an information technology (IT) background think about interactive television in personal computer terms. Although the academic background is in computer engineering, empirical research on the broadcast and the media industry --Hellenic Broadcasting, RAI research, Canal+, Danish Broadcasting-- has taught me several lessons, in complement to the IT mentality. In particular, I have done research on:
 
 * multimedia authoring tools that are suitable for the workflow of TV producers, as well as for user participation (see papers: User Interface Programing for Interactive TV, The Evolution of TV Systems, Content, and Users Toward Interactivity)
 
@@ -53,5 +51,3 @@ I have done research on:
 * digital media management strategy that augments the established business model with alternative distribution and consumption channels, such as the Internet, mobile devices, etc (see papers: Coping with TiVo: Opportunities of the Networked Digital Video Recorder and Cross-media digital rights management for online music stores, Taking Social TV Beyond Chatting: How The TV Viewer Adds Value To The Network).
 
 * social video retrieval:
-
-If you wish to learn more about the above topics (as well as about some other efforts that do not fit the above categories), then you can go to: [Portfolio](http://portfolio.epidro.me), [Publications](/publications/), [Software](/resume/#software), Spin-off companies

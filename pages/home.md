@@ -1,5 +1,5 @@
 ---
-title: "Welcome!"
+title: "Konstantinos Chorianopoulos"
 permalink: "index.html"
 layout: single
 author_profile: true
@@ -10,7 +10,7 @@ header:
   og_image: "/assets/images/bio-photo.jpg"
   cta_label: '<i class="fa fa-download"></i> Read free sample'
   cta_url: "https://leanpub.com/pibook"
-excerpt: "**Latest (Greek) book:** Programming Interactivity"
+excerpt: "**Latest book:** Ο Προγραμματισμός της Διάδρασης"
 ---
 
 <style>
