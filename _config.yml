@@ -27,7 +27,7 @@ collections:
     output: true
     permalink: pretty
 
-news_limit: 5
+news_limit: 6
 
 defaults:
   - scope:
