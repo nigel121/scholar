@@ -11,8 +11,12 @@ header:
   overlay_filter: "0.5"
   og_image: "/assets/images/bio-photo.jpg"
   cta_label: "<i class='fa fa-download'></i> Download CV"
-  cta_url: "/pdf/resume.pdf"
+  cta_url: "/en/resume.pdf"
 ---
+
+## Βιογραφικό στα Ελληνικά
+
+[Download Greek CV](/gr/resume.pdf)
 
 {% include cv/summary.md %}
 {% include cv/recent.md %}
