@@ -71,7 +71,7 @@ languages:
 
 # Settings
 mainfont: Hoefler Text
-fontsize: 10pt
+fontsize: 11pt
 lang: en-US
 geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
 toc: false

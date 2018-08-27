@@ -10,7 +10,7 @@ TEX = pandoc details.yml \
 							../_includes/cv/talks.md \
 							../_includes/cv/tutorials.md \
 							../_includes/cv/teaching-statement.md
-src = template-pandoc.tex
+src = template.tex
 FLAGS = --pdf-engine=xelatex
 
 resume.pdf : $(src)

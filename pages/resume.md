@@ -14,9 +14,9 @@ header:
   cta_url: "/en/resume.pdf"
 ---
 
-## Βιογραφικό στα Ελληνικά
+## Resume CV in Greek
 
-[Download Greek CV](/gr/resume.pdf)
+[Ελληνικό βιογραφικό](/gr/resume.pdf)
 
 {% include cv/summary.md %}
 {% include cv/recent.md %}
