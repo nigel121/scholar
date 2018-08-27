@@ -37,6 +37,9 @@ $endif$
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
 % Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 % MARGIN NOTES
 %--------------------------------
@@ -53,6 +56,11 @@ $endif$
 \sectionfont{\rmfamily\mdseries}
 \subsectionfont{\rmfamily\mdseries\scshape\normalsize}
 \subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+\makeatletter
+\renewcommand\thesection{}
+\renewcommand\thesubsection{}
+\renewcommand\thesubsubsection{}
+\makeatother
 
 % PDF SETUP
 %--------------------------------
@@ -84,18 +92,18 @@ $for(address)$
 $address$\\
 $endfor$
 
-\vspace{-10pt}
-
-$phone$\\
-\href{mailto:$email$}{$email$}\\
-
-
 $if(urls)$
 \columnbreak
 
 $for(urls)$
 \href{http://$urls$}{$urls$}\\
 $endfor$
+
+\vspace{-10pt}
+
+$phone$\\
+\href{mailto:$email$}{$email$}\\
+
 \end{multicols}
 $endif$
 
@@ -143,5 +151,18 @@ $endfor$
 $endif$
 
 $body$
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Last update: \today\- •\-
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Typeset in \href{https://github.com/mrzool/cv-boilerplate}{
+\fontspec{Times New Roman}\XeTeX }\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\href{http://scholar.epidro.me/resume}{http://scholar.epidro.me/resume}}
+\end{center}
 
 \end{document}
