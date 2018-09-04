@@ -13,5 +13,6 @@ In my free time, I like to surf (surfing and windsurfing). Here is a (growing) l
 * Body: While not on board, stay fit and sharp by cycling, swimming, rowing, pilates, meditation, eating, and sleeping.
 * Stand up: Be explosive, but gentle.
 * Exit: Sooner or later you will have to make an exit from that (not so) nice wave, you better have a strategy before hand.
+* Landing smoothly: It is already quite hard to jump and even harder to do so with style, but the most challenging part is to land that aerial trick smoothly.
 
 Sometimes, I think that the above findings might also apply to other life situations besides surfing.
