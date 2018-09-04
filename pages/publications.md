@@ -47,6 +47,10 @@ excerpt: "**Featured paper:** A Taxonomy of Asynchronous Instructional Video Sty
 
 {% bibliography --file tutorials.bib %}
 
+## Book chapters
+
+{% bibliography --file chapters.bib %}
+
 ## Reports
 
 {% bibliography --file reports.bib %}
