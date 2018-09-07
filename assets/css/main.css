@@ -2,7 +2,7 @@
    Default skin
    ========================================================================== */
 /*!
- * Minimal Mistakes Jekyll Theme 4.12.0 by Michael Rose
+ * Minimal Mistakes Jekyll Theme 4.12.2 by Michael Rose
  * Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt)
 */
@@ -1663,8 +1663,10 @@ th {
     padding: 1em;
     max-width: 100%;
     display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
     .masthead__inner-wrap::after {
@@ -1681,11 +1683,10 @@ th {
 
 .site-title {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  padding: 0.5rem 0;
-  align-self: stretch;
-  -webkit-box-align: center;
-  align-items: center;
+  -ms-flex-item-align: center;
+  align-self: center;
   font-weight: bold;
   z-index: 20; }
 
@@ -1854,14 +1855,16 @@ th {
 .greedy-nav {
   position: relative;
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  min-height: 2em;
   background: #fff; }
   .greedy-nav a {
     display: block;
     margin: 0 1rem;
-    padding: 0.5rem 0;
     color: #7a8288;
     text-decoration: none; }
     .greedy-nav a:hover {
@@ -1869,8 +1872,9 @@ th {
     .greedy-nav a.site-title {
       margin-left: 0; }
   .greedy-nav__toggle {
-    padding: 0 0.5rem;
-    align-self: stretch;
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: 2rem;
     border: 0;
     outline: none;
     color: #fff;
@@ -1878,14 +1882,18 @@ th {
     cursor: pointer; }
   .greedy-nav .visible-links {
     display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
     overflow: hidden; }
     .greedy-nav .visible-links li {
       -webkit-box-flex: 0;
+      -ms-flex: none;
       flex: none; }
     .greedy-nav .visible-links a {
       position: relative; }
@@ -1900,13 +1908,11 @@ th {
         -webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         -webkit-transform: scaleX(0) translate3d(0, 0, 0);
-        transform: scaleX(0) translate3d(0, 0, 0);
-        /* hide*/ }
+        transform: scaleX(0) translate3d(0, 0, 0); }
       .greedy-nav .visible-links a:hover:before {
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
-        transform: scaleX(1);
-        /* reveal*/ }
+        transform: scaleX(1); }
   .greedy-nav .hidden-links {
     position: absolute;
     top: 100%;
@@ -1916,6 +1922,7 @@ th {
     border: 1px solid #f2f3f3;
     border-radius: 4px;
     background: #fff;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
     .greedy-nav .hidden-links.hidden {
       display: none; }
@@ -1967,7 +1974,7 @@ th {
   .nav__list input[type="checkbox"],
   .nav__list label {
     display: none; }
-  @media (max-width: 63.9375em) {
+  @media (min-width: max-width(1023px)) {
     .nav__list {
       /* selected*/
       /* on hover show expand*/ }
@@ -2023,11 +2030,11 @@ th {
       .nav__list a {
         display: block;
         padding: 0.25em 0; } }
-    @media (max-width: 63.9375em) and (min-width: 64em) {
+    @media (min-width: max-width(1023px)) and (min-width: 64em) {
       .nav__list a {
         padding-top: 0.125em;
         padding-bottom: 0.125em; } }
-  @media (max-width: 63.9375em) {
+  @media (min-width: max-width(1023px)) {
         .nav__list a:hover {
           text-decoration: underline; } }
 
@@ -2041,7 +2048,7 @@ th {
     padding-left: 0.5em;
     padding-right: 0.5em;
     font-weight: bold; }
-  @media (max-width: 63.9375em) {
+  @media (min-width: max-width(1023px)) {
     .nav__list .nav__items {
       position: relative;
       max-height: 0;
@@ -2054,7 +2061,7 @@ th {
       -ms-transform: translate(0, 10%);
       transform: translate(0, 10%); } }
 
-@media (max-width: 63.9375em) {
+@media (min-width: max-width(1023px)) {
   .nav__list input:checked ~ .nav__items {
     -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
@@ -2068,7 +2075,7 @@ th {
     transform: translate(0, 0); } }
 .nav__title {
   margin: 0;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.75rem;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 1em;
   font-weight: bold; }
@@ -2076,7 +2083,7 @@ th {
 .nav__sub-title {
   display: block;
   margin: 0.5rem 0;
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
@@ -2089,11 +2096,10 @@ th {
 .toc {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   color: #7a8288;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   background-color: #fff;
   border: 1px solid #f2f3f3;
   border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); }
   .toc .nav__title {
     color: #fff;
@@ -2107,26 +2113,30 @@ th {
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: 0.8rem;
-  /* hide sub sub links on small screens*/ }
+  font-size: 0.75em; }
+  @media (min-width: 64em) {
+    .toc__menu {
+      font-size: 0.6875em; } }
   .toc__menu a {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.75rem;
     color: #898c8f;
-    font-size: 0.6875em;
     font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid #f2f3f3; }
     .toc__menu a:hover {
       color: #494e52; }
   .toc__menu li ul > li a {
-    padding-left: 1.75rem;
+    padding-left: 1.25rem;
     font-weight: normal; }
-  .toc__menu li > ul li {
-    display: none; }
-    @media (min-width: 48em) {
-      .toc__menu li > ul li {
-        display: block; } }
+  .toc__menu li ul li ul > li a {
+    padding-left: 1.75rem; }
+  .toc__menu li ul li ul li ul > li a {
+    padding-left: 2.25rem; }
+  .toc__menu li ul li ul li ul li ul > li a {
+    padding-left: 2.75rem; }
+  .toc__menu li ul li ul li ul li ul li ul > li a {
+    padding-left: 3.25rem; }
 
 /* ==========================================================================
    FOOTER
@@ -2932,7 +2942,6 @@ a.reversefootnote {
 #main {
   clear: both;
   margin-left: auto;
-  margin-top: 2em;
   margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
@@ -2960,6 +2969,7 @@ a.reversefootnote {
     padding-right: 300px; } }
 .page .page__inner-wrap {
   float: left;
+  margin-top: 1em;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
@@ -3334,6 +3344,7 @@ a.reversefootnote {
    ARCHIVE
    ========================================================================== */
 .archive {
+  margin-top: 1em;
   margin-bottom: 2em; }
   @media (min-width: 64em) {
     .archive {
@@ -3360,8 +3371,6 @@ a.reversefootnote {
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis; }
-  .archive__item-title a {
-    color: inherit; }
   .archive__item-title a + a {
     opacity: 0.5; }
 
@@ -3485,10 +3494,12 @@ a.reversefootnote {
     clear: both;
     content: "";
     display: table; }
+  .feature__wrapper .archive__item-title {
+    margin-bottom: 0; }
 
 .feature__item {
   margin-bottom: 2em;
-  font-size: 1.25rem; }
+  font-size: 1.125em; }
   @media (min-width: 37.5em) {
     .feature__item {
       float: left;
@@ -3506,13 +3517,16 @@ a.reversefootnote {
       .feature__item .feature__item-teaser {
         max-height: 200px;
         overflow: hidden; } }
+  .feature__item .archive__item-body {
+    padding-left: 1.6949152542%;
+    padding-right: 1.6949152542%; }
   .feature__item--left {
     float: left;
     margin-left: 0;
     margin-right: 0;
     width: 100%;
     clear: both;
-    font-size: 1.25rem; }
+    font-size: 1.125em; }
     .feature__item--left .archive__item-teaser {
       margin-bottom: 2em; }
     @media (min-width: 37.5em) {
@@ -3530,7 +3544,7 @@ a.reversefootnote {
     margin-right: 0;
     width: 100%;
     clear: both;
-    font-size: 1.25rem; }
+    font-size: 1.125em; }
     .feature__item--right .archive__item-teaser {
       margin-bottom: 2em; }
     @media (min-width: 37.5em) {
@@ -3540,7 +3554,7 @@ a.reversefootnote {
           float: right;
           width: 40.6779661017%; }
         .feature__item--right .archive__item-body {
-          float: right;
+          float: left;
           width: 57.6271186441%;
           padding-left: 1.6949152542%;
           padding-right: 1.6949152542%; } }
@@ -3550,7 +3564,7 @@ a.reversefootnote {
     margin-right: 0;
     width: 100%;
     clear: both;
-    font-size: 1.25rem; }
+    font-size: 1.125em; }
     .feature__item--center .archive__item-teaser {
       margin-bottom: 2em; }
     @media (min-width: 37.5em) {
@@ -3590,8 +3604,7 @@ a.reversefootnote {
    Default
    ========================================================================== */
 .sidebar {
-  clear: both;
-  margin-bottom: 1em; }
+  clear: both; }
   .sidebar::after {
     clear: both;
     content: "";
@@ -3614,11 +3627,16 @@ a.reversefootnote {
         opacity: 1; }
       .sidebar.sticky {
         overflow-y: auto;
-        /* calculate height of nav list */
-        height: calc( 100vh - 90px - 2em ); } }
+        /* calculate height of nav list
+           viewport height - nav height - masthead x-padding
+        */
+        height: calc(100vh - 2em - 2em); } }
   @media (min-width: 80em) {
     .sidebar {
       width: calc(300px - 1em); } }
+  .sidebar > * {
+    margin-top: 1em;
+    margin-bottom: 1em; }
   .sidebar h2,
   .sidebar h3,
   .sidebar h4,
@@ -3633,6 +3651,9 @@ a.reversefootnote {
     line-height: 1.5; }
   .sidebar img {
     width: 100%; }
+    .sidebar img.emoji {
+      width: 20px;
+      height: 20px; }
 
 .sidebar__right {
   margin-bottom: 1em; }
