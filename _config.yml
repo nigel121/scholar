@@ -76,9 +76,11 @@ author:
   bio              : "Maker, scholar, mentor"
   location         : "Corfu, Greece"
   e-mail           : "hi@epidro.me"
-  uri              : "http://www.epidro.me"
-  github           : "epidrome"
-  #orcid            : "0000-0002-5999-9387"
+  homepage         : "http://www.epidro.me"
+  cv               : "en/resume.pdf"
+  github-alt       : "epidrome"
+  google-scholar   : "EnRHC-4AAAAJ"
+  orcid            : "0000-0002-5999-9387"
 
 scholar:
   style: acm-siggraph

@@ -5,6 +5,14 @@
     </a>
   </li>
 -->
+{% if author.homepage %}
+  <li>
+    <a href="{{ author.homepage }}">
+      <i class="fas fa-home"></i> Homepage
+    </a>
+  </li>
+{% endif %}
+
 {% if author.e-mail %}
   <li>
     <a href="mailto:{{ author.e-mail }}">
@@ -14,18 +22,18 @@
   </li>
 {% endif %}
 
-{% if author.google-scholar %}
+{% if author.github-alt %}
   <li>
-    <a href="https://scholar.google.com/citations?user={{ author.google-scholar }}">
-      <i class="ai ai-google-scholar ai-lg"></i> Scholar
+    <a href="https://github.com/{{ author.github-alt }}">
+      <i class="fab fa-github-alt"></i> Github
     </a>
   </li>
 {% endif %}
 
-{% if author.dblp %}
+{% if author.google-scholar %}
   <li>
-    <a href="https://dblp.uni-trier.de/pers/hd/c/{{ author.dblp }}">
-      <i class="ai ai-dblp ai-lg"></i> dblp
+    <a href="https://scholar.google.com/citations?user={{ author.google-scholar }}">
+      <i class="ai ai-google-scholar ai-lg"></i> Scholar
     </a>
   </li>
 {% endif %}
@@ -40,7 +48,7 @@
 
 {% if author.cv %}
   <li>
-    <a href="{{ site.url }}{{ site.baseurl }}{{ author.cv }}">
+    <a href="{{ site.url }}{{ site.baseurl }}/{{ author.cv }}">
       <i class="ai ai-cv ai-lg"></i> Resume
     </a>
   </li>
