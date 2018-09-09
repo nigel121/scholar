@@ -35,6 +35,9 @@ $endif$
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
+% nice icons
+\usepackage{fontawesome5}
+\usepackage{academicons}
 % Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
@@ -84,28 +87,27 @@ $endif$
 
 {\LARGE $name$}\\[.2cm]
 
-$if(urls)$
 \begin{multicols}{2}
-$endif$
 
 $for(address)$
 $address$\\
 $endfor$
 
-$if(urls)$
 \columnbreak
 
-$for(urls)$
-\href{http://$urls$}{$urls$}\\
-$endfor$
+{\scriptsize
+\faStyle{regular}
+\faHome \hspace{0.1cm} \href{http://$homepage$}{$homepage$}\\
+\faEnvelope \hspace{0.1cm} \href{mailto:$email$}{$email$}\\
+\aiOrcid \hspace{0.1cm} \href{http://orcid.org/$orcid$}{ORCID}\\
+\aiGoogleScholar \hspace{0.1cm} \href{http://scholar.google.com/citations?user=$scholar$}{Google Scholar}\\
 
-\vspace{-10pt}
+\vfill
 
-$phone$\\
-\href{mailto:$email$}{$email$}\\
+\faPhone $phone$\\
+}
 
 \end{multicols}
-$endif$
 
 \vspace{30pt}
 
