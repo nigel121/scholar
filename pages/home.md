@@ -14,9 +14,9 @@ header:
 excerpt: "**Featured paper:** A Taxonomy of Asynchronous Instructional Video Styles"
 ---
 
-## Recent publications
+## Recent articles 
 
-{% bibliography --max 3 %}
+{% bibliography --query @article --max 3 %}
 
 [All publications](https://pdf.epidro.me)
 
