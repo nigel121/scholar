@@ -2,8 +2,8 @@
    Default skin
    ========================================================================== */
 /*!
- * Minimal Mistakes Jekyll Theme 4.14.1 by Michael Rose
- * Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+ * Minimal Mistakes Jekyll Theme 4.14.2 by Michael Rose
+ * Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
 */
 /* Variables */
@@ -1218,11 +1218,13 @@ select:focus {
    TABLES
    ========================================================================== */
 table {
+  display: block;
   margin-bottom: 1em;
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   font-size: 0.75em;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  overflow-x: auto; }
   table + table {
     margin-top: 1em; }
 
