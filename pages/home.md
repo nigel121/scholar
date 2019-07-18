@@ -16,7 +16,7 @@ excerpt: "**Featured paper:** A Taxonomy of Asynchronous Instructional Video Sty
 
 ## Recent articles 
 
-{% bibliography --query @article --max 3 %}
+{% bibliography --query @article --max 4 %}
 
 [All publications](https://pdf.epidro.me)
 
