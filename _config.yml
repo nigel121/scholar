@@ -67,13 +67,13 @@ social:
 author:
   name             : "Konstantinos Chorianopoulos"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Maker, scholar, mentor"
+  bio              : "Ionian University"
   location         : "Corfu, Greece"
-  keybase          : 'epidrome'
+  keybase          : #'epidrome'
   e-mail           : "choko@ionio.gr"
-  homepage         : "https://users.ionio.gr/choko"
+  homepage         : #"https://users.ionio.gr/choko"
   cv               : "en/resume.pdf"
-  github-alt       : "epidrome"
+  github-alt       : #"epidrome"
   google-scholar   : #"EnRHC-4AAAAJ"
   orcid            : "0000-0002-5999-9387"
 
